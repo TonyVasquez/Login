@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*font-family: 'Anton', sans-serif;
+*/
+
+html{
+    font-size: 62.5%;
+    font-family: 'Anton', sans-serif;
+}
+
+main{
+    min-width: 375px;
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+
+.container{
+    max-width: 335px;
+    height: auto;
+    background-color: rgba(195, 192, 222, 0.69);
+    padding: 10px;
+    text-align: center;
+    font-size: 1.9rem;
+    position: relative;
+    margin: 0 auto;
+    top: 220px;
+    box-shadow:
+    0.1px 5.1px 5.3px rgba(0, 0, 0, 0.144),
+    0.4px 17px 17.9px rgba(0, 0, 0, 0.295),
+    2px 76px 80px rgba(0, 0, 0, 0.69);
+    border-radius: 5px;
+}
+
+.main-container-fields{
+    display: block;
+    justify-items: center;
+    padding-top: 3px;
+    font-family: 'Anton', sans-serif;
+}
+
+main .container .logo{
+    width: 100px;
+    height: 100px;
+    background-image: url('./icons/log-in-icon.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    bottom: 190px;
+    left: calc(50% - 50px);
+}
+
+.required{
+    color: red;
+}
+
+.main-contaiener-fields-input{
+    border-radius: 30px;
+    font-family: 'Anton', sans-serif;
+    padding-left: 5px;
+}
+
+.btn-confirmar{
+    border-radius: 30px;
+    font-size: 2rem;
+    width: 100px;
+    font-family: 'Anton', sans-serif;
+    margin-top: 10px;
+}
+
+.btn-confirmar:hover{
+  background-color: rgb(100, 104, 223);
+}
+
+.btn-confirmar:active{
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
